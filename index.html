@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hodlcave Development</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome ikonok betöltése -->
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -28,8 +29,15 @@
         .social-links a {
             color: #0066cc;
             text-decoration: none;
-            margin: 0 10px;
-            font-size: 18px;
+            margin: 0 15px; /* Növelt margó a nagyobb ikonokhoz */
+            font-size: 22px; /* Növelt betűméret a szöveghez */
+            display: inline-flex; /* Ikon és szöveg vízszintes elrendezése */
+            align-items: center; /* Középre igazítás */
+        }
+
+        .social-links a i {
+            margin-right: 8px; /* Térköz az ikon és a szöveg között */
+            font-size: 24px; /* Növelt ikonméret */
         }
 
         .social-links a:hover {
@@ -58,11 +66,11 @@
         <p>This website is currently under development. Please check back later for updates!</p>
         <img src="vegleges.png" alt="Hodlcave Profile">
         <div class="social-links">
-            <a href="https://www.facebook.com/profile.php?id=615736414949" target="_blank">Facebook</a>
-            <a href="https://x.com/HodiCave" target="_blank">Twitter or X</a>
-            <a href="https://www.instagram.com/hodlcave/" target="_blank">Instagram</a>
-            <a href="https://www.youtube.com/@HodlCave" target="_blank">YouTube</a>
-            <a href="https://www.tiktok.com/@HodlCave" target="_blank">TikTok</a>
+            <a href="https://www.facebook.com/profile.php?id=615736414949" target="_blank"><i class="fab fa-facebook"></i>Facebook</a>
+            <a href="https://x.com/HodiCave" target="_blank"><i class="fab fa-twitter"></i>Twitter or X</a>
+            <a href="https://www.instagram.com/hodlcave/" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="https://www.youtube.com/@HodlCave" target="_blank"><i class="fab fa-youtube"></i>YouTube</a>
+            <a href="https://www.tiktok.com/@HodlCave" target="_blank"><i class="fab fa-tiktok"></i>TikTok</a>
         </div>
     </div>
 </body>
